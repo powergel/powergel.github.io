@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centered Image</title>
+    <title>Images in Table</title>
     <style>
         body {
             display: flex;
@@ -13,8 +13,12 @@
             margin: 0;
             background-color: #f0f0f0;
         }
-        .container {
+        table {
+            border-collapse: collapse;
             text-align: center;
+        }
+        td {
+            padding: 10px;
         }
         img {
             max-width: 100%;
@@ -24,16 +28,17 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="image001.jpg" alt="Image 001">
-        <img src="image002.jpg" alt="Image 001">
-        <img src="image003.jpg" alt="Image 001">
-        <img src="image004.jpg" alt="Image 001">
-        <img src="image005.jpg" alt="Image 001">
-        <img src="image001.jpg" alt="Image 001">
-        <img src="image001.jpg" alt="Image 001">
-        <img src="image001.jpg" alt="Image 001">
-        <img src="image001.jpg" alt="Image 001">
-    </div>
+    <table>
+        <tr>
+            <td><img src="image001.jpg" alt="Image 001"></td>
+        </tr>
+        <tr>
+            <td><img src="image002.jpg" alt="Image 002"></td>
+        </tr>
+        <tr>
+            <td><img src="image003.jpg" alt="Image 003"></td>
+        </tr>
+        <!-- Add more rows for more images -->
+    </table>
 </body>
 </html>
