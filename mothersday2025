@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images in Table</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;  /* Changed to flex-start to ensure images are at the top */
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        table {
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td {
+            padding: 10px;
+        }
+        img {
+            width: 100%;          /* Ensure the image doesn't overflow */
+            height: auto;         /* Maintain the aspect ratio */
+            max-width: 600px;     /* Optional: Limit max width if the image is too large */
+        }
+    </style>
+</head>
+<body>
+    <table>
+          <tr>
+            <td><img src="AG Care Love Your Curls_20240625101401 (1)_page-0001.jpg" alt="Page 1"></td>
+        </tr>
+       
+     
+         
+    </table>
+</body>
+</html>
