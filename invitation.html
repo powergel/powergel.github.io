@@ -8,11 +8,11 @@
         body {
             display: flex;
             justify-content: center;
-            align-items: flex-start;
-            height: 100vh;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
-            flex-direction: column; /* So the image and link are stacked vertically */
         }
         table {
             border-collapse: collapse;
@@ -34,6 +34,7 @@
             text-decoration: none;
             color: #0066cc;
             font-weight: bold;
+            font-size: 1.1em;
         }
         .link-container a:hover {
             text-decoration: underline;
